@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration - Practical 05</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Student<span>Hub</span></a>
+    </header>
+    <div class="page-container" style="max-width: 600px; margin: 40px auto; padding: 24px; background: #fff; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.08);">
+        <h2>Student Registration Form</h2>
+        <p style="color: #64748b; font-size: 0.9rem; margin-bottom: 20px;">Practical 05: Client-side RegEx Form Validation. Student: <strong>Kushagra Upadhyay (25CE127)</strong></p>
+        
+        <div id="form-alert" class="alert" style="display:none;"></div>
+        
+        <form id="reg-form" novalidate>
+            <div class="form-group" style="margin-bottom: 16px;">
+                <label for="reg-fullname">Full Name *</label>
+                <input type="text" id="reg-fullname" name="fullname" class="form-control" placeholder="e.g. Kushagra Upadhyay" required>
+                <span class="field-error" id="err-fullname"></span>
+            </div>
+            
+            <div class="form-group" style="margin-bottom: 16px;">
+                <label for="reg-email">Email Address *</label>
+                <input type="email" id="reg-email" name="email" class="form-control" placeholder="e.g. ukushagra8@gmail.com" required>
+                <span class="field-error" id="err-email"></span>
+            </div>
+            
+            <div class="form-group" style="margin-bottom: 16px;">
+                <label for="reg-mobile">Mobile Number *</label>
+                <input type="tel" id="reg-mobile" name="mobile" class="form-control" placeholder="10-digit mobile" required>
+                <span class="field-error" id="err-mobile"></span>
+            </div>
+            
+            <div class="form-group" style="margin-bottom: 16px;">
+                <label for="reg-course">Course *</label>
+                <select id="reg-course" name="course" class="form-control" required>
+                    <option value="">-- Select Course --</option>
+                    <option value="btech-ce" selected>B.Tech Computer Engineering</option>
+                    <option value="btech-it">B.Tech Information Technology</option>
+                    <option value="btech-ec">B.Tech Electronics & Comm.</option>
+                </select>
+                <span class="field-error" id="err-course"></span>
+            </div>
+            
+            <div class="form-group" style="margin-bottom: 16px;">
+                <label for="reg-password">Password *</label>
+                <input type="password" id="reg-password" name="password" class="form-control" placeholder="Min 8 chars, uppercase, digit, symbol" required>
+                <span class="field-error" id="err-password"></span>
+            </div>
+            
+            <div class="form-group" style="margin-bottom: 16px;">
+                <label for="reg-confirm">Confirm Password *</label>
+                <input type="password" id="reg-confirm" name="confirm_password" class="form-control" placeholder="Re-enter password" required>
+                <span class="field-error" id="err-confirm"></span>
+            </div>
+            
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label><input type="checkbox" id="reg-terms" required> I accept the Terms & Conditions</label>
+                <span class="field-error" id="err-terms"></span>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Registration</button>
+        </form>
+    </div>
+    <script src="js/validate.js"></script>
+</body>
+</html>

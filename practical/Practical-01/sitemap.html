@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Sitemap (Practical 01)</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f8fafc; color: #1e293b; padding: 40px 20px; line-height: 1.6; }
+        .container { max-width: 900px; margin: 0 auto; background: #fff; padding: 36px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
+        h1 { color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 12px; }
+        .meta { color: #64748b; font-size: 0.95rem; margin-bottom: 24px; }
+        .tree ul { list-style-type: none; padding-left: 20px; border-left: 2px solid #cbd5e1; }
+        .tree li { margin: 10px 0; position: relative; padding-left: 15px; }
+        .tree li::before { content: ""; position: absolute; left: 0; top: 12px; width: 10px; height: 2px; background: #cbd5e1; }
+        a { color: #2563eb; text-decoration: none; font-weight: 600; }
+        a:hover { text-decoration: underline; }
+        .badge { display: inline-block; padding: 2px 8px; font-size: 0.75rem; border-radius: 4px; background: #e0f2fe; color: #0369a1; margin-left: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>StudentHub Portal - Hierarchical Sitemap</h1>
+        <div class="meta">Student: <strong>Kushagra Upadhyay (25CE127)</strong> | Subject: ITUE203-WDF</div>
+        
+        <div class="tree">
+            <ul>
+                <li><a href="../Practical-02/index.html">Home Page</a> (index.html) <span class="badge">Public</span>
+                    <ul>
+                        <li><a href="../Practical-02/about.html">About Portal</a> (about.html) <span class="badge">Public</span></li>
+                        <li><a href="../Practical-02/contact.html">Contact Directory</a> (contact.html) <span class="badge">Public</span></li>
+                        <li><a href="../Practical-02/faq.html">FAQ Knowledgebase</a> (faq.html) <span class="badge">Public</span></li>
+                        <li><a href="../Practical-02/feedback.html">Student Feedback</a> (feedback.html) <span class="badge">Public</span></li>
+                        <li><a href="../Practical-02/login.html">Login Portal</a> (login.html) <span class="badge">Auth</span></li>
+                        <li><a href="../Practical-02/register.html">Student Registration</a> (register.html) <span class="badge">Auth</span></li>
+                        <li><a href="../Practical-02/dashboard.html">Student Dashboard</a> (dashboard.html) <span class="badge">Student</span>
+                            <ul>
+                                <li><a href="../Practical-02/profile.html">Student Profile</a> (profile.html)</li>
+                                <li><a href="../Practical-02/events.html">Campus Events</a> (events.html)</li>
+                            </ul>
+                        </li>
+                        <li><a href="../Practical-02/admin.html">Administrator Console</a> (admin.html) <span class="badge">Admin</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

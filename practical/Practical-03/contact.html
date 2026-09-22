@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Practical 03</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Student<span>Hub</span></a>
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="nav-overlay" id="nav-overlay"></div>
+        <nav class="nav-menu" id="nav-menu">
+            <a href="index.html" class="nav-link active">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="events.html" class="nav-link">Events</a>
+            <a href="faq.html" class="nav-link">FAQ</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="login.html" class="btn btn-outline">Login</a>
+            <a href="register.html" class="btn btn-primary">Register</a>
+        </nav>
+    </header>
+    <main class="page-container">
+        <section class="hero">
+            <h2>Welcome to StudentHub</h2>
+            <p>Your centralized portal for academics, events, profiles, and campus life. Student: <strong>Kushagra Upadhyay (25CE127)</strong></p>
+            <div class="hero-actions">
+                <a href="register.html" class="btn btn-primary">Get Started</a>
+                <a href="about.html" class="btn btn-outline">Learn More</a>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Portal Features</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Academic Dashboard</h3>
+                    <p>Track your academic progress, attendance, and semester schedules in one place.</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Campus Events</h3>
+                    <p>Stay updated with workshops, hackathons, seminars, and tech competitions.</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Profile Management</h3>
+                    <p>Manage personal information, course details, and account credentials securely.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 StudentHub - Developed by Kushagra Upadhyay (25CE127) | CSPIT-CE</p>
+    </footer>
+    <script>
+        const btn = document.getElementById('hamburger-btn');
+        const menu = document.getElementById('nav-menu');
+        const overlay = document.getElementById('nav-overlay');
+        if (btn && menu) {
+            btn.addEventListener('click', function() {
+                const open = menu.classList.toggle('open');
+                btn.classList.toggle('active');
+                overlay.classList.toggle('active');
+                btn.setAttribute('aria-expanded', open);
+            });
+            overlay.addEventListener('click', function() {
+                menu.classList.remove('open');
+                btn.classList.remove('active');
+                overlay.classList.remove('active');
+                btn.setAttribute('aria-expanded', 'false');
+            });
+        }
+    </script>
+</body>
+</html>

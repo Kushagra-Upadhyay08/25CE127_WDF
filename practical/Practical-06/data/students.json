@@ -1,0 +1,32 @@
+[
+    { "id": 1, "name": "Aarav Patel", "enrollment": "26IT001", "email": "aarav@charusat.edu.in", "course": "B.Tech 
+IT", "year": 2, "status": "Active" },
+    { "id": 2, "name": "Priya Sharma", "enrollment": "26CS084", "email": "priya@charusat.edu.in", "course": "B.Tech 
+CS", "year": 3, "status": "Active" },
+    { "id": 3, "name": "Rohan Mehta", "enrollment": "26EC032", "email": "rohan@charusat.edu.in", "course": "B.Tech 
+EC", "year": 2, "status": "Pending" },
+    { "id": 4, "name": "Ananya Desai", "enrollment": "26CS015", "email": "ananya@charusat.edu.in", "course": "B.Tech 
+CS", "year": 1, "status": "Active" },
+    { "id": 5, "name": "Vivaan Shah", "enrollment": "26IT045", "email": "vivaan@charusat.edu.in", "course": "B.Tech 
+IT", "year": 3, "status": "Active" },
+    { "id": 6, "name": "Diya Joshi", "enrollment": "26ME018", "email": "diya@charusat.edu.in", "course": "B.Tech ME", 
+"year": 2, "status": "Active" },
+    { "id": 7, "name": "Arjun Reddy", "enrollment": "26CS072", "email": "arjun@charusat.edu.in", "course": "B.Tech 
+CS", "year": 4, "status": "Active" },
+    { "id": 8, "name": "Kavya Nair", "enrollment": "26IT028", "email": "kavya@charusat.edu.in", "course": "B.Tech IT",
+ "year": 1, "status": "Pending" },
+    { "id": 9, "name": "Ishaan Gupta", "enrollment": "26EC055", "email": "ishaan@charusat.edu.in", "course": "B.Tech 
+EC", "year": 3, "status": "Active" },
+    { "id": 10, "name": "Meera Iyer", "enrollment": "26CS098", "email": "meera@charusat.edu.in", "course": "B.Tech 
+CS", "year": 2, "status": "Active" },
+    { "id": 11, "name": "Kabir Singh", "enrollment": "26ME041", "email": "kabir@charusat.edu.in", "course": "B.Tech 
+ME", "year": 3, "status": "Inactive" },
+    { "id": 12, "name": "Saanvi Kapoor", "enrollment": "26IT063", "email": "saanvi@charusat.edu.in", "course": "B.
+Tech IT", "year": 2, "status": "Active" },
+    { "id": 13, "name": "Aditya Verma", "enrollment": "26CS037", "email": "aditya@charusat.edu.in", "course": "B.Tech 
+CS", "year": 1, "status": "Active" },
+    { "id": 14, "name": "Riya Choudhary", "enrollment": "26EC069", "email": "riya@charusat.edu.in", "course": "B.Tech 
+EC", "year": 4, "status": "Active" },
+    { "id": 15, "name": "Tanish Kumar", "enrollment": "26IT090", "email": "tanish@charusat.edu.in", "course": "B.Tech 
+IT", "year": 1, "status": "Pending" }
+]

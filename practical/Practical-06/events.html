@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Events - Practical 06</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Student<span>Hub</span></a>
+        <div style="font-size: 0.9rem; color: #64748b;">Practical 06 | Kushagra Upadhyay (25CE127)</div>
+    </header>
+    <main class="page-container" style="padding: 24px;">
+        <h2>Campus Events & Workshops</h2>
+        <div class="controls-bar" style="margin: 20px 0; display: flex; gap: 12px; flex-wrap: wrap;">
+            <input type="text" id="event-search" class="form-control" placeholder="Search events by title, venue..." style="flex: 1; min-width: 200px;">
+            <select id="event-category-filter" class="form-control" style="width: 180px;">
+                <option value="all">All Categories</option>
+                <option value="Technical">Technical</option>
+                <option value="Cultural">Cultural</option>
+                <option value="Sports">Sports</option>
+                <option value="Academic">Academic</option>
+            </select>
+        </div>
+        <div id="events-render" class="events-grid"></div>
+        <div id="events-pagination" class="pagination-bar" style="margin-top: 24px; display: flex; justify-content: center; gap: 8px;"></div>
+    </main>
+    <script src="js/fetch-render.js"></script>
+</body>
+</html>

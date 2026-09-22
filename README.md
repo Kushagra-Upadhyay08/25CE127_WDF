@@ -1,120 +1,96 @@
-# StudentHub Portal - Project Documentation
+# StudentHub - Web Development Frameworks (ITUE203-WDF)
 
-## 1. Problem Scope & Identification
-Modern academic settings often force students and faculty to juggle multiple disconnected platforms:
-* Checking attendance on one system.
-* Viewing mid-semester and end-semester grades on another.
-* Accessing study resources on cloud drives.
-* Reading campus announcements via bulk emails or notice boards.
-
-**StudentHub** is a unified, browser-compatible student portal designed to consolidate these academic modules into a single, intuitive interface. It acts as a one-stop dashboard, reducing administrative friction, improving communication, and keeping academic statistics transparent and accessible.
+**Student Name:** Kushagra Upadhyay  
+**Student ID:** 25CE127  
+**Department:** Computer Engineering  
+**Institution:** Chandubhai S. Patel Institute of Technology (CSPIT), CHARUSAT  
+**Academic Year:** 2026–2027  
 
 ---
 
-## 2. User Roles
-* **Student (Primary User)**: Accesses dashboards, tracks attendance, views registered courses, checks grades, submits assignments, downloads study materials, and reads notifications.
-* **Faculty/Instructor (Secondary User)**: Manages class lists, updates attendance records, posts assignments and deadlines, uploads study resources, and posts grades.
-* **Administrator (System Operator)**: Configures system databases, updates core schedules, manages student-faculty registrations, and posts official university announcements.
+## 📖 Course Practical Index (Practicals 01 to 14)
+
+All laboratory assignments are organized practical-wise within the [`practical/`](./practical/) directory and documented in the official submission reports:
+- [**25CE127_ITUE203-WDF_Practical_03_to_06.docx**](./25CE127_ITUE203-WDF_Practical_03_to_06.docx)
+- [**25CE127_ITUE203-WDF_Practical_07_to_14.docx**](./25CE127_ITUE203-WDF_Practical_07_to_14.docx)
+
+| Practical | Module Title & Objectives | Key Technologies |
+| :--- | :--- | :--- |
+| [**Practical 01**](./practical/Practical-01/) | Project Initiation, Requirement Analysis, Sitemap, Wireframe, and GitHub Setup | Markdown, HTML5, Wireframes |
+| [**Practical 02**](./practical/Practical-02/) | Semantic HTML5 Pages with Accessibility-Ready Structure | Semantic HTML5, ARIA |
+| [**Practical 03**](./practical/Practical-03/) | Responsive UI Design using CSS Grid, Flexbox, and Media Queries | CSS3, Flexbox, CSS Grid |
+| [**Practical 04**](./practical/Practical-04/) | JavaScript DOM Manipulation, Event Handling, and UI Interactivity | ES6+ JavaScript, LocalStorage |
+| [**Practical 05**](./practical/Practical-05/) | Registration Form with Frontend Validation & User-Friendly Error Handling | RegEx, Real-time Validation |
+| [**Practical 06**](./practical/Practical-06/) | Rendering External JSON Data using Fetch API, Search, Filter & Pagination | Fetch API, JSON, Promises |
+| [**Practical 07**](./practical/Practical-07/) | PHP Form Processing with Server-Side Validation and CSV/JSON Storage | PHP 8.x, File I/O, Sanitization |
+| [**Practical 08**](./practical/Practical-08/) | MySQL Schema Design, ER Model, PDO Connectivity & Prepared Statements | MySQL, PDO, Relational 3NF |
+| [**Practical 09**](./practical/Practical-09/) | Secure User Registration with Database Insert, Duplicate Check & Hashing | Bcrypt (`password_hash`), CSRF |
+| [**Practical 10**](./practical/Practical-10/) | Secure Login/Logout with Sessions, Role-Based Access, Timeout & Cookies | Sessions, RBAC, Timeout |
+| [**Practical 11**](./practical/Practical-11/) | Student Management CRUD with Search, Filter & CSV Export | MySQL CRUD, Dynamic SQL, CSV |
+| [**Practical 12**](./practical/Practical-12/) | Event Management CRUD with Poster Upload and File Validation | File Uploads, MIME validation |
+| [**Practical 13**](./practical/Practical-13/) | PHP JSON API and AJAX/Fetch-Based CRUD without Page Reload | RESTful JSON API, Fetch API |
+| [**Practical 14**](./practical/Practical-14/) | Admin Dashboard with Role-Based Access Control, Dynamic Menu & Audit Log | RBAC Dashboard, Audit Logging |
 
 ---
 
-## 3. Key Modules
-1. **Dashboard (Home)**: Aggregates notifications, calendar events, and direct entry points to other pages.
-2. **Profile Management**: Displays personal information, academic registration credentials, and current enrollment status.
-3. **Academics & Schedule**: Lists all currently registered courses, course codes, instructors, and class venues.
-4. **Attendance System**: Calculates attendance percentages by subject and flags borderline cases (e.g., below 75%).
-5. **Grades & Assessment**: Displays prior semester CGPA, mid-semester, and final grade reports.
-6. **Assignments Tracker**: Lists pending and submitted tasks with deadlines.
-7. **Resource Vault**: A directory of download links for slide decks, e-books, and worksheets.
-8. **Notice Board**: Displays campus events, exams schedules, and emergency notices.
-9. **Helpdesk / Contact Directory**: Provides contact information for departments, faculty offices, and academic staff.
-10. **About Portal**: Outlines the system architecture, developmental phase, and developer profiles.
+## 🚀 Repository Directory Structure
 
----
-
-## 4. Project Folder Structure
-All files reside in a flat directory for straightforward navigation and referencing, avoiding nested directory complexities for beginners:
 ```text
-Html clg/
-├── index.html         (Home / Dashboard)
-├── profile.html       (Student Profile)
-├── courses.html       (Registered Courses)
-├── attendance.html    (Attendance Tracker)
-├── grades.html        (Grades & Results)
-├── assignments.html   (Assignments & Deadlines)
-├── resources.html     (Study Resources)
-├── events.html        (Announcements & Events)
-├── contact.html       (Contact Directory)
-├── about.html         (About Portal & Problem Scope)
-├── CHARUSAT.png       (University Logo Image Asset)
-└── README.md          (Project Documentation - This file)
+25CE127_WDF/
+├── css/
+│   └── style.css                     # Global responsive stylesheet
+├── js/
+│   └── app.js                        # Core interactivity & theme manager
+├── practical/
+│   ├── Practical-01/                 # Requirement analysis, sitemap, wireframes
+│   ├── Practical-02/                 # Semantic HTML5 page skeletons
+│   ├── Practical-03/                 # Responsive Grid & Flexbox layouts
+│   ├── Practical-04/                 # DOM components, modals, sliders, FAQ
+│   ├── Practical-05/                 # Client-side form validation with RegEx
+│   ├── Practical-06/                 # Fetch API, search, filter, pagination
+│   ├── Practical-07/                 # Server-side PHP form validation & file storage
+│   ├── Practical-08/                 # MySQL schema, 3NF ER model, PDO connectivity
+│   ├── Practical-09/                 # Secure registration, Bcrypt hashing, CSRF
+│   ├── Practical-10/                 # Session authentication, RBAC, inactivity timeout
+│   ├── Practical-11/                 # Student management CRUD with search & filter
+│   ├── Practical-12/                 # Event management CRUD with poster upload
+│   ├── Practical-13/                 # PHP REST API & asynchronous Fetch CRUD
+│   └── Practical-14/                 # Admin dashboard with audit logging
+├── 25CE127_ITUE203-WDF_Practical_03_to_06.docx
+├── 25CE127_ITUE203-WDF_Practical_07_to_14.docx
+├── index.html                        # Main StudentHub Portal Entry
+├── about.html
+├── contact.html
+├── events.html
+├── profile.html
+├── attendance.html
+├── assignments.html
+├── courses.html
+├── grades.html
+└── resources.html
 ```
 
 ---
 
-## 5. Navigation Flow & Sitemap
-Every page contains a global navigation bar enabling direct routing to any of the other 9 pages.
+## 🛠️ How to Run Locally
 
-### Sitemap
-```text
-                          +-------------------------+
-                          |   index.html (Home)     |
-                          +------------+------------+
-                                       |
-     +-----------------+---------------+---------------+-----------------+
-     |                 |               |               |                 |
-+----+----+       +----+----+     +----+----+     +----+----+       +----+----+
-| profile |       | courses |     |attendance|    | grades  |       |assignm- |
-|  .html  |       |  .html  |     |  .html  |     |  .html  |       | ents    |
-+----+----+       +----+----+     +----+----+     +----+----+       +----+----+
-     |                 |               |               |                 |
-     +-----------------+---------------+---------------+-----------------+
-                                       |
-     +-----------------+---------------+---------------+-----------------+
-     |                 |               |               |                 |
-+----+----+       +----+----+     +----+----+     +----+----+            |
-|resources|       | events  |     | contact |     |  about  |            |
-|  .html  |       |  .html  |     |  .html  |     |  .html  |            |
-+---------+       +---------+     +---------+     +---------+            |
-     |                                                                   |
-     +-------------------------------------------------------------------+
-     
-*Note: Every file contains a persistent <nav> list containing links to all other 9 pages.*
+### 1. Static & Frontend Practicals (Practicals 01 to 06)
+Open any HTML file directly in a modern web browser (Google Chrome, Mozilla Firefox, Microsoft Edge), or run a local web server:
+```bash
+# Using VS Code Live Server extension or Python built-in server:
+python -m http.server 8000
 ```
+Navigate to `http://localhost:8000/`.
 
----
-
-## 6. Low-Fidelity Wireframe
-Below is the visual structure used consistently across all 10 pages:
-
-```text
-+-----------------------------------------------------------------------+
-|  [Logo - CHARUSAT.png]                           STUDENT HUB PORTAL   |
-+-----------------------------------------------------------------------+
-|  Navigation Bar (nav -> ul -> li -> a):                               |
-|  [Home] | [Profile] | [Courses] | [Attendance] | [Grades]             |
-|  [Assignments] | [Resources] | [Events] | [Contact] | [About]         |
-+-----------------------------------------------------------------------+
-|                                                                       |
-|   <h1>PAGE HEADER (e.g. Student Profile)</h1>                         |
-|   <u>Subheading / Current Context</u>                                 |
-|                                                                       |
-|   Main Content Section (e.g. Table, List, Paragraphs):                |
-|   +---------------------------------------------------------------+   |
-|   | Header 1       | Header 2       | Header 3                    |   |
-|   +----------------+----------------+-----------------------------+   |
-|   | Data 1         | Data 2         | Data 3                      |   |
-|   +----------------+----------------+-----------------------------+   |
-|                                                                       |
-+-----------------------------------------------------------------------+
-|  (C) 2026 StudentHub. Plain HTML Implementation.                      |
-+-----------------------------------------------------------------------+
-```
-
----
-
-## 7. Permitted Attributes for Coloring & Layout (Non-CSS)
-To stick strictly to the user's constraints (no CSS, no JavaScript, using only basic elements and 1-2 extra coloring/border attributes):
-1. **`bgcolor`**: Used on `<body>` (e.g., `bgcolor="lightblue"` or `bgcolor="#f4f6f9"`) and on tables/headers to apply background colors.
-2. **`text`**: Used on `<body>` (e.g., `text="navy"` or `text="#222222"`) to control general text color.
-3. **`border`**: Used on `<table>` (e.g., `border="1"`) to format table grids.
+### 2. Backend & Database Practicals (Practicals 07 to 14)
+1. Start **Apache** and **MySQL** services in the **XAMPP Control Panel**.
+2. Clone or copy the repository into your web root directory (e.g. `C:/xampp/htdocs/25CE127_WDF/`).
+3. Import the database schema:
+   - Open phpMyAdmin (`http://localhost/phpmyadmin/`).
+   - Create a new database named `studenthub`.
+   - Import [`practical/Practical-08/studenthub.sql`](./practical/Practical-08/studenthub.sql).
+4. Run diagnostic test script:
+   - Visit `http://localhost/25CE127_WDF/practical/Practical-08/test_connection.php`.
+5. Access the administrative portal or student dashboards:
+   - Login: `practical/Practical-10/login.php`
+   - Admin Dashboard: `practical/Practical-14/index.php`

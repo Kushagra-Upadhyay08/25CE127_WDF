@@ -1,0 +1,138 @@
+[
+    {
+        "id": 1,
+        "title": "TechFest 2026",
+        "date": "2026-08-15",
+        "venue": "Main Auditorium, FTE",
+        "category": "Technical",
+        "description": "Annual technological festival featuring coding contests, robotics, and paper presentations.",
+        "status": "Upcoming"
+    },
+    {
+        "id": 2,
+        "title": "Web Development Workshop",
+        "date": "2026-07-25",
+        "venue": "IT Lab 4",
+        "category": "Workshop",
+        "description": "Hands-on workshop covering HTML, CSS, JavaScript, and PHP fundamentals.",
+        "status": "Completed"
+    },
+    {
+        "id": 3,
+        "title": "Cultural Night",
+        "date": "2026-09-05",
+        "venue": "Campus Grounds",
+        "category": "Cultural",
+        "description": "A vibrant evening celebrating music, dance, drama, and fine arts.",
+        "status": "Upcoming"
+    },
+    {
+        "id": 4,
+        "title": "AI & ML Seminar",
+        "date": "2026-09-10",
+        "venue": "Seminar Hall A",
+        "category": "Technical",
+        "description": "Industry experts discuss the latest trends in artificial intelligence and machine learning.",
+        "status": "Upcoming"
+    },
+    {
+        "id": 5,
+        "title": "Hackathon 2026",
+        "date": "2026-10-12",
+        "venue": "CS Lab 1 & 2",
+        "category": "Technical",
+        "description": "24-hour coding marathon to build innovative solutions for real-world problems.",
+        "status": "Upcoming"
+    },
+    {
+
+        "id": 6,
+        "title": "Sports Day",
+        "date": "2026-08-20",
+        "venue": "Sports Complex",
+        "category": "Sports",
+        "description": "Annual inter-department sports competition featuring cricket, football, and athletics.",
+        "status": "Completed"
+    },
+    {
+        "id": 7,
+        "title": "Cloud Computing Workshop",
+        "date": "2026-09-18",
+        "venue": "IT Lab 2",
+        "category": "Workshop",
+        "description": "Learn AWS and Azure basics with hands-on deployment exercises.",
+        "status": "Upcoming"
+    },
+    {
+        "id": 8,
+        "title": "Debate Competition",
+        "date": "2026-07-30",
+        "venue": "Conference Hall",
+        "category": "Cultural",
+        "description": "Inter-college debate on technology's role in education and society.",
+        "status": "Completed"
+    },
+    {
+        "id": 9,
+        "title": "Entrepreneurship Talk",
+        "date": "2026-10-05",
+        "venue": "Seminar Hall B",
+        "category": "Seminar",
+        "description": "Successful startup founders share their journey and insights.",
+        "status": "Upcoming"
+    },
+    {
+        "id": 10,
+        "title": "Data Science Bootcamp",
+        "date": "2026-09-22",
+        "venue": "CS Lab 3",
+        "category": "Workshop",
+        "description": "Intensive 2-day bootcamp on Python, Pandas, and data visualization.",
+        "status": "Upcoming"
+    },
+    {
+        "id": 11,
+        "title": "Open Source Contribution Day",
+        "date": "2026-08-28",
+        "venue": "IT Lab 1",
+        "category": "Technical",
+        "description": "Learn Git, GitHub, and contribute to open-source projects together.",
+        "status": "Completed"
+    },
+    {
+        "id": 12,
+        "title": "Photography Contest",
+        "date": "2026-09-15",
+        "venue": "Campus-wide",
+        "category": "Cultural",
+        "description": "Capture the beauty of campus life. Best photos featured on the portal.",
+        "status": "Upcoming"
+    },
+    {
+        "id": 13,
+        "title": "Cyber Security Awareness",
+        "date": "2026-10-01",
+        "venue": "Seminar Hall A",
+        "category": "Seminar",
+        "description": "Learn about online safety, phishing prevention, and secure coding practices.",
+        "status": "Upcoming"
+    },
+    {
+        "id": 14,
+        "title": "Alumni Meet 2026",
+        "date": "2026-11-15",
+        "venue": "Main Auditorium",
+        "category": "Cultural",
+        "description": "Annual gathering of alumni to network, share experiences, and mentor students.",
+        "status": "Upcoming"
+    },
+    {
+        "id": 15,
+        "title": "Mobile App Dev Workshop",
+        "date": "2026-10-20",
+        "venue": "IT Lab 3",
+        "category": "Workshop",
+        "description": "Build your first mobile app using React Native with guided exercises.",
+        "status": "Upcoming"
+    }
+]

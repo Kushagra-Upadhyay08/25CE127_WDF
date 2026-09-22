@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Roster - Practical 06</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Student<span>Hub</span> Admin</a>
+        <div style="font-size: 0.9rem; color: #64748b;">Practical 06 | Kushagra Upadhyay (25CE127)</div>
+    </header>
+    <main class="page-container" style="padding: 24px;">
+        <h2>Enrolled Student Directory</h2>
+        <div class="controls-bar" style="margin: 20px 0; display: flex; gap: 12px; flex-wrap: wrap;">
+            <input type="text" id="student-search" class="form-control" placeholder="Search students by name, roll no, email..." style="flex: 1; min-width: 200px;">
+            <select id="student-course-filter" class="form-control" style="width: 180px;">
+                <option value="all">All Courses</option>
+                <option value="B.Tech IT">B.Tech IT</option>
+                <option value="B.Tech CS">B.Tech CS</option>
+                <option value="B.Tech EC">B.Tech EC</option>
+            </select>
+        </div>
+        <div id="students-render"></div>
+        <div id="students-pagination" class="pagination-bar" style="margin-top: 24px; display: flex; justify-content: center; gap: 8px;"></div>
+    </main>
+    <script src="js/fetch-render.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+[
+    { "id": 1, "question": "How do I register for an account?", "answer": "Go to the Register page, fill in your 
+personal, academic, and security details, and click Register. Your enrollment number will be used for profile 
+verification.", "category": "Account" },
+    { "id": 2, "question": "I forgot my password. How can I reset it?", "answer": "Currently, you must contact the 
+campus administrator at the Faculty of Technology and Engineering to reset your password.", "category": "Account" },
+    { "id": 3, "question": "Can I register for multiple campus events?", "answer": "Yes, you can register for as many 
+active events as you want, provided there are no scheduling conflicts.", "category": "Events" },
+
+    { "id": 4, "question": "How do I submit feedback about the portal?", "answer": "Log in to your account, navigate 
+to the Feedback page, fill out the feedback form, and submit your suggestions.", "category": "General" },
+    { "id": 5, "question": "What courses are available on StudentHub?", "answer": "Currently, B.Tech programs in 
+Computer Science, Information Technology, Electronics & Communication, and Mechanical Engineering are listed.", 
+"category": "Academic" },
+    { "id": 6, "question": "How do I update my profile information?", "answer": "Log in, go to the Profile page, 
+update your details, and click 'Update Profile'. Your email address cannot be changed.", "category": "Account" },
+    { "id": 7, "question": "Is the portal accessible on mobile devices?", "answer": "Yes, StudentHub is fully 
+responsive and works on mobile phones, tablets, and desktops.", "category": "General" },
+    { "id": 8, "question": "Can I switch between light and dark modes?", "answer": "Yes, use the moon/sun icon in the 
+header to toggle between light and dark themes. Your preference is saved automatically.", "category": "General" },
+    { "id": 9, "question": "How do I contact campus administration?", "answer": "Visit the Contact page to send a 
+message, or use the address and phone number listed there.", "category": "General" },
+    { "id": 10, "question": "When does the new semester registration open?", "answer": "Semester registration 
+typically opens 2 weeks before the start of classes. Check announcements for exact dates.", "category": "Academic" },
+    { "id": 11, "question": "How can I view event details and register?", "answer": "Go to the Events page to browse 
+upcoming events. Click on an event to see details and register.", "category": "Events" },
+    { "id": 12, "question": "What happens if I miss an event registration deadline?", "answer": "Late registrations 
+are generally not accepted. Contact the event coordinator for exceptions.", "category": "Events" },
+    { "id": 13, "question": "How secure is my data on StudentHub?", "answer": "We use password hashing, session 
+management, and input validation to protect your data.", "category": "Account" },
+    { "id": 14, "question": "Can admin users manage student records?", "answer": "Yes, admin users have access to the 
+Admin Panel where they can view, edit, and manage student records.", "category": "Admin" },
+    { "id": 15, "question": "Where can I find past event details?", "answer": "Completed events remain listed on the 
+Events page. Use the status filter to show only completed events.", "category": "Events" }
+]

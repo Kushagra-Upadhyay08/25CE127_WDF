@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>StudentHub Event API Console - Practical 13</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell">
+    <header><div><p class="eyebrow">PRACTICAL 13 · ITUE203-WDF</p><h1>Event API Console</h1><p class="sub">Fetch-
+powered CRUD with no page reload.</p></div><span class="api-pill"><i></i> JSON API connected</span></header>
+    <section class="toolbar"><input id="search" type="search" placeholder="Search events, category or venue"><button 
+id="newEvent" class="primary">+ New event</button></section>
+    <p id="notice" class="notice" aria-live="polite"></p>
+    <section id="loading" class="loading">Loading current events…</section>
+    <section id="eventList" class="grid" aria-live="polite"></section>
+  </main>
+  <dialog id="eventDialog"><form id="eventForm" method="dialog"><div class="modal-head"><h2 id="formTitle">Create 
+event</h2><button type="button" id="closeDialog" class="icon" aria-label="Close">×</button></div><input id="eventId" 
+type="hidden"><label>Title<input id="title" required maxlength="150"></label><label>Category<input id="category" 
+required placeholder="Technical, Workshop…"></label><label>Description<textarea id="description" required></
+textarea></label><div class="two"><label>Date<input id="event_date" type="date" required></label><label>Venue<input 
+id="venue" required></label></div><div class="two"><label>Capacity<input id="max_participants" type="number" min="1" 
+max="5000" value="100" required></label><label>Status<select id="status"><option value="upcoming">Upcoming</
+option><option value="completed">Completed</option><option value="cancelled">Cancelled</option></select></label></
+div><p id="formError" class="form-error" aria-live="polite"></p><div class="actions"><button type="button" 
+id="cancel" class="secondary">Cancel</button><button class="primary">Save event</button></div></form></dialog>
+  <script src="app.js"></script>
+</body></html>
